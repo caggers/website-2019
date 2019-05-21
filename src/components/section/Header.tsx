@@ -1,5 +1,4 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 interface Props {
@@ -40,8 +39,3 @@ const SectionHeader = (props: Props) => {
 };
 
 export default SectionHeader;
-
-SectionHeader.propTypes = {
-	title: PropTypes.string,
-	icon: PropTypes.string
-};

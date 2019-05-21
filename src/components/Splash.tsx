@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import PropTypes from 'prop-types';
 
 interface Props {
 	isMobile?: boolean;
@@ -49,10 +48,6 @@ const Splash = (props: Props) => {
       electronics and wearables enthusiast by night.</SplashWrapper>
 		</>
 	);
-};
-
-Splash.propTypes = {
-	isMobile: PropTypes.bool
 };
 
 export default Splash;

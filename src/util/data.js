@@ -83,6 +83,6 @@ const otherObject = {
   ]
 };
 
-export const skillsArry = [devObject, designObject, otherObject];
+export const skillsArray = [devObject, designObject, otherObject];
 
 export const sectionsArray = [profile, experience];

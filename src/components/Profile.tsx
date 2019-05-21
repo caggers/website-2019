@@ -1,19 +1,9 @@
 import * as React from 'react';
 import styled, { css } from 'styled-components';
-import PropTypes from 'prop-types';
 
 import { profilePic } from '../images';
 import Header from './section/Header';
-
-interface DataProps {
-	title: string;
-	subtitle?: string;
-	text: string | Array<string>;
-	icon: string;
-	blogs?: Array<string>;
-	isListing?: boolean;
-	fullSize?: boolean;
-}
+import { DataProps } from '../util/interfaces'
 
 interface Props {
 	isMobile?: boolean;
@@ -84,17 +74,6 @@ const Profile = (props: Props) => {
 			</ProfileContent>
 		</ProfileWrapper>
 	);
-};
-
-Profile.propTypes = {
-	data: PropTypes.shape({
-		title: PropTypes.string,
-		subtitle: PropTypes.string,
-		text: PropTypes.string,
-		icon: PropTypes.string,
-		blogs: PropTypes.arrayOf(PropTypes.string)
-	}),
-	isMobile: PropTypes.bool
 };
 
 export default Profile;

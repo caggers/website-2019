@@ -1,14 +1,14 @@
 import * as React from 'react';
 import Home from './Home';
 import { createGlobalStyle } from 'styled-components';
-import { AmaticSC, JosefinSlab } from '../fonts';
+import { AmaticSC, JosefinSlab } from './fonts';
 
 const GlobalStyle = createGlobalStyle`
 body {
     padding: 0;
     margin: 0 auto;
     font-family: Josefin Slab, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.1;
   }
 
