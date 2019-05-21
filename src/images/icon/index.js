@@ -1,0 +1,9 @@
+export {default as halfmoon} from './halfmoon.svg';
+export {default as rocket} from './rocket.svg';
+export {default as spaceman} from './spaceman.svg';
+export {default as telescope} from './telescope.svg';
+export {default as twinkle} from './twinkle.svg';
+export {default as ufo} from './ufo.svg';
+export {default as linkedin} from './linkedin.svg';
+export {default as twitter} from './twitter.svg';
+export {default as github} from './github.svg';

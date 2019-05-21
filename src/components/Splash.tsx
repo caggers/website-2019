@@ -36,7 +36,7 @@ const SplashWrapper = styled.h1<Props>`
 	animation: ${AnimateGradient} 5s ease infinite;
 	${props => props.isMobile &&
 		css`
-			font-size: 3rem;
+			font-size: 4rem;
 		`}
 `;
 
